@@ -82,10 +82,10 @@ layers:
   - CMENU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - HOME
+  - PG DN
   - PG UP
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
+  - END
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -94,9 +94,9 @@ layers:
   - LSHFT
   - {t: ▽, type: trans}
   - CLCK
-  - PG DN
   - LEFT
   - DOWN
+  - UP ARROW
   - RIGHT
   - DEL
   - BSPC
