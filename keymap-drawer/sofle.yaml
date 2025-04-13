@@ -54,11 +54,11 @@ layers:
   - LCTRL
   - LALT
   - LCMD
-  - lower
+  - {t: BACKSPACE, h: lower}
   - RET
   - SPACE
-  - raise
-  - BACKSPACE
+  - {t: BACKSPACE, h: raise}
+  - RGUI
   - RALT
   - RCTRL
   lower:
@@ -97,20 +97,20 @@ layers:
   - '*'
   - (
   - )
-  - '|'
   - {t: ▽, type: trans}
-  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '-'
   - +
-  - '{'
   - '['
+  - '{'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ']'
   - '}'
-  - ;
-  - ':'
+  - ']'
+  - '='
   - \
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
