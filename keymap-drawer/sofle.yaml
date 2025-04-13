@@ -163,7 +163,7 @@ layers:
   - UNDO
   - CUT
   - COPY
-  - PASTE
+  - '&macro_screenshot'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
