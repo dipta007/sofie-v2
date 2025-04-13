@@ -50,7 +50,14 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        vim_escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <31 32>;
+        };
+    };
 
     macros {
     };
