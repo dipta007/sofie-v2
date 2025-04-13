@@ -56,7 +56,7 @@
         vim_escape {
             bindings = <&kp ESCAPE>;
             key-positions = <31 32>;
-            layers = <0>;
+            timeout-ms = <50>;
         };
     };
 
