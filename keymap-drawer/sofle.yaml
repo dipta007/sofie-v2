@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - '|'
-  - {t: LCTRL, h: ESCAPE}
+  - {t: ESCAPE, h: LCTRL}
   - A
   - S
   - D
