@@ -62,7 +62,7 @@ layers:
   - RALT
   - RCTRL
   lower:
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - F1
   - F2
   - F3
