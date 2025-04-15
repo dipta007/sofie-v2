@@ -157,8 +157,8 @@ layers:
   - DOWN
   - UP ARROW
   - RIGHT
-  - DEL
-  - BSPC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UNDO
   - CUT
