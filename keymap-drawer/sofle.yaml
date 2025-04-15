@@ -247,3 +247,5 @@ layers:
 combos:
 - p: [31, 32]
   k: ESCAPE
+- p: [36, 49]
+  k: CAPS
