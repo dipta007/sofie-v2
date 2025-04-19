@@ -58,9 +58,9 @@ layers:
   - RET
   - SPACE
   - {t: BACKSPACE, h: raise}
-  - '='
-  - '*'
-  - +
+  - RGUI
+  - RIGHT ALT
+  - RCTRL
   lower:
   - '&studio_unlock'
   - F1
