@@ -226,7 +226,7 @@ layers:
   - ''
   - ''
   - ''
-  - RGB TOG
+  - {t: ▽, type: trans}
   - EP TOG
   - ''
   - ''
