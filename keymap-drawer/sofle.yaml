@@ -249,3 +249,5 @@ combos:
   k: ESCAPE
 - p: [36, 49]
   k: CAPS
+- p: [19, 20]
+  k: '='
