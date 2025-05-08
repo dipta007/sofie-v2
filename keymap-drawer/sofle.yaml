@@ -195,7 +195,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - POWER
   - EP TOG
   - RGB HUD
   - RGB HUI
@@ -207,7 +207,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - POWER
   - ''
   - RGB BRD
   - RGB BRI
