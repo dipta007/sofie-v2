@@ -50,7 +50,7 @@ layers:
   - ','
   - .
   - /
-  - POWER
+  - RIGHT SHIFT
   - LCTRL
   - LALT
   - LCMD
@@ -251,3 +251,7 @@ combos:
   k: CAPS
 - p: [19, 20]
   k: '='
+- p: [28, 27]
+  k: +
+- p: [15, 16]
+  k: '*'
