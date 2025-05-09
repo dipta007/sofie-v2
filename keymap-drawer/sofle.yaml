@@ -77,7 +77,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - +
+  - '*'
   - '['
   - ']'
   - +
@@ -89,7 +89,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '*'
+  - +
   - '{'
   - '}'
   - '*'
@@ -251,7 +251,7 @@ combos:
   k: CAPS
 - p: [19, 20]
   k: '='
-- p: [15, 16]
-  k: +
 - p: [27, 28]
+  k: +
+- p: [15, 16]
   k: '*'
