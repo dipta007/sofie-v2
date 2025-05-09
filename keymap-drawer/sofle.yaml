@@ -145,13 +145,13 @@ layers:
   - PG DN
   - PG UP
   - END
-  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
   - LCTRL
   - LSHFT
-  - {t: ▽, type: trans}
+  - LCMD
   - CLCK
   - LEFT
   - DOWN
