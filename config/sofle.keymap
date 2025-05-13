@@ -53,7 +53,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <140>;
             bindings = <&mo>, <&kp>;
 
             display-name = "Layer-Tap-Hold";
