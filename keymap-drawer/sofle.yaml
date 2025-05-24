@@ -139,8 +139,8 @@ layers:
   - INS
   - PSCRN
   - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&zoom_out'
+  - '&zoom_in'
   - HOME
   - PG DN
   - PG UP
