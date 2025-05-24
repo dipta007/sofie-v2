@@ -42,6 +42,20 @@
             label = "MACRO_SCREENSHOT";
         };
 
+        zoom_in: zoom_in {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(PLUS)>;
+            label = "ZOOM_IN";
+        };
+
+        zoom_out: zoom_out {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(MINUS)>;
+            label = "ZOOM_OUT";
+        };
+
         rgb_brightness_encoder: rgb_brightness_encoder {
             compatible = "zmk,behavior-sensor-rotate";
             label = "RGB_BRIGHTNESS_ENCODER";
@@ -151,7 +165,9 @@
                           &trans        &trans        &trans             &trans        &trans    &trans  &trans    &trans               &trans        &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>,
+                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         adjust_layer {
